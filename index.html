@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN / REGISTRATION</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<form id="login">
+		<h2 class=heading>Login to continue</h2>
+		<div>
+			<label>E-mail</label>
+			<input type="email" id="loginemail" placeholder="Your e-mail">
+		</div>
+		<div>
+			<label>Password</label>
+			<input type="password" id="loginpswd" placeholder="Your Password">
+		</div>
+		<button onclick="login()">LOGIN</button>
+		<h3 class="error" id="loginerror"></h3>
+		<h4>Not a USer ? <span onclick="navigation()">Register here</span></h4>
+	</form>
+	
+	<form id="registrations">
+		<h2 class="heading">REGISTRATION</h2>
+		<div>
+			<label>Name</label>
+			<input type="text" id="regname" placeholder="Your Name">
+		</div>
+		<div>
+			<label>E-mail</label>
+			<input type="email" id="regemail" placeholder="Your e-mail">
+		</div>
+		<div>
+			<label>Password</label>
+			<input type="password" id="regpswd" placeholder="Your password">
+		</div>
+		<div>
+			<label>Confirm Password</label>
+			<input type="password" id="regconfpswd" placeholder="Your Confirm Password">
+		</div>
+		<h4>
+		<button onclick="registration()">REGISTER</button></h4>
+		<h3 class="error" id="regerror"></h3>
+	</form>
+	<script src="scriptasli.js"></script>
+</body>
+</html>

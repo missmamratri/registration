@@ -1,0 +1,72 @@
+#login{display: block;}
+
+#registrations{display: none;}
+body{
+	background-image: url("https://img.freepik.com/free-photo/office-desktop-with-laptop-analytics_23-2148174053.jpg?size=626&ext=jpg&ga=GA1.2.2063357093.1690429566&semt=ais");
+	background-size: cover;
+}
+
+form{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 5%;
+	padding: 20px;
+}
+
+span{
+	text-decoration: underline;
+}
+
+label{
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+button{
+	width: 120px;
+	height: 35px;
+	padding: 8px;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+}
+
+div{
+	margin: 20px;
+}
+
+h1,h2{
+	color: black;
+	text-align: center;
+	text-shadow: 6px 6px 5px white;
+}
+
+h1{
+	font-size: 100px;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 70px;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+}
+.heading{
+	font-size: 30px;
+	padding: 10px;
+	color: purple;
+	border-bottom: 5x solid orange;
+	padding-bottom: 4px;
+}
+
+.error{
+	color: red;
+	font-size: 15px;
+}

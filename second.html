@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome</h1>
+  <h2>How are you doing?</h2>
+  <h3 id="welcome"></h2>
+
+  <!-- Load script AFTER the DOM is ready -->
+  <script src="scriptasli.js"></script>
+  <script>
+    // Call welcome AFTER scriptasli.js is loaded
+    window.onload = showWelcome();
+  </script>
+</body>
+</html>
